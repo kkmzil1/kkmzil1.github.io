@@ -1,0 +1,31 @@
+body{
+	background-color: #65989ca7;
+	width: 92%;
+	margin: auto;
+	box-shadow: 0 0 30px 10px black;
+}
+div{
+	background-color: #387f509b;
+}
+h1{
+	font-size: 70px;
+	color: #0f401f;
+	text-align: center;
+}
+h2{
+	font-size: 45px;
+	color: #0f401fe6;
+	text-align: center;
+}
+p{
+	font-size: 30px;
+	color: #415949fd;
+}
+a{
+	font-size: 25px;
+	color: #0f401f;
+}
+img{
+	height: 360px;
+	width: 410px;
+}
