@@ -1,0 +1,33 @@
+.main{
+	column-count: 4;
+	column-gap: 0;
+	width: 90%;
+	margin: auto;
+	background-color: darkgrey;
+	padding-right: 10px;
+	box-shadow: 0 0 40px 10px white;
+}
+.image{
+	max-width: 100%;
+	height: 350px;
+	display: block;
+	filter: blur(5px);
+	transition: 0.50s;
+}
+.image+.image{
+	margin: 5px;
+}
+body{
+	background-color: #314c6b;
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.heading{
+	color: darkgrey;
+	width: 100%;
+	font-size: 70px;
+	text-align: center;
+}
+.image:hover{
+	filter: contrast(125%);
+	filter: blur(0px); 
+}
